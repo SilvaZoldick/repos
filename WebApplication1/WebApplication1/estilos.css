@@ -1,0 +1,15 @@
+﻿table {
+    color: #FFFFFF;
+}
+
+p {
+    color: #DDDDDD;
+}
+
+#principal {
+    background ="green";
+}
+
+.fundo {
+    background: #333333 url("imagens/background.jpg") fixed;
+}

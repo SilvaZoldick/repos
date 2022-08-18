@@ -1,0 +1,91 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #FFCC00;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h1 {
+    display: inline;
+    padding-bottom: 10px;
+    font-size: 3em; 
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+#linksheader{
+    padding: 10px 10px;
+    text-decoration: none;
+}
+    #linksheader a:link, a:visited {
+        color: white;
+    }
+    #linksheader a:hover {
+      color: #FFCC00;
+      background-color: white;
+    }
+body{
+    font-size: 1em;
+    font-family: "Trbuchet MS", Arial, Helvetica, sans-serif;
+}
+#corpo{
+    width:70%;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#esquerda {
+    width: 55%;
+    float: left;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+#direita {
+    width: 35%;
+    float: right;
+}
+h3 {
+    color: #F6C400;
+}
+.rightitle{
+    color: #555555;
+    background-color: #CCCCCC;
+    padding-bottom: 10px;
+}
+span{
+    padding-top: 10px;
+
+}
+.imagens {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+#vespaco {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#linkscorpo{
+    text-decoration: none;
+    padding: 20px;
+}
+    #linkscorpo a:link, a:visited{
+        color: rgb(162,140,4);
+    }
+    #linkscorpo a:hover {
+        color: white;
+        background-color: #FFCC00;
+    }
+.clear{
+    clear: right;
+}
+.bordacinza {
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+    padding-bottom: 10px;
+}

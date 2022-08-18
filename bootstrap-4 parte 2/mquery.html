@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Media Querys</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="print-style.css" />
+
+    <style type="text/css">
+
+        /*Extra large devices *large desktops, 1200px e superior)*/
+        @media (min-width: 1200px) {
+            body {
+                background: green;
+            }
+        }
+        /*Large devices (desktops, 992px e superior)*/
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            body {
+                background: blue;
+            }
+        }
+
+        /*Medium devices (tablets)*/
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            body {
+                background: black;
+            }
+        }
+
+        /*Small devices (landscape pones)*/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            body {
+                background: red;
+            }
+        }
+
+        /*Extra small devices (portraint phones)*/
+        @media (max-width: 575.98px) {
+            body {
+                background: #FFFF00;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <p>Lorem ipsum dolorem sit amet</p>
+
+    <br /><br />
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
